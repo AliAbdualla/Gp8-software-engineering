@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+}
+
+#gameContainer {
+    width: 200px;
+    height: 400px;
+    border: 2px solid white;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#note {
+    width: 20px;
+    height: 20px;
+    background-color: gold;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+
+#scoreBoard {
+    margin-top: 20px;
+    font-size: 20px;
+}
