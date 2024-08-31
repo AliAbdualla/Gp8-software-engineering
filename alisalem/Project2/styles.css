@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    margin: 0;
+}
+
+.piano {
+    display: flex;
+    position: relative;
+}
+
+.key {
+    width: 60px;
+    height: 200px;
+    border: 1px solid #000;
+    position: relative;
+}
+
+.white {
+    background-color: white;
+    z-index: 1;
+}
+
+.black {
+    width: 40px;
+    height: 120px;
+    background-color: black;
+    position: absolute;
+    left: 40px;
+    margin-left: -20px;
+    z-index: 2;
+}
+
+.key:active {
+    background-color: yellow;
+}
+
+.black:active {
+    background-color: red;
+}
