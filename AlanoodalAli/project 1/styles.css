@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#gameArea {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #87ceeb;
+    overflow: hidden;
+}
+
+#basket {
+    position: absolute;
+    bottom: 20px;
+    width: 100px;
+    height: 50px;
+    background-color: #ff4500;
+    border-radius: 10px;
+    left: calc(50% - 50px);
+}
+
+#fruit {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    color: #fff;
+}
+
+
