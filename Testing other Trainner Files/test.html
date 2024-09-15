@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KU Registration Form</title>
+    <style>
+      .Heading1 {
+        font-family: arial;
+        text-align: center;
+        color: #0056b3;
+        font-size: 27px;
+        margin-bottom: 10px;
+        margin-top: 2px;
+      }
+      .A4page {
+        width: 210mm;
+        height: 297mm;
+        margin: auto;
+        padding: 20mm;
+        background-color: #fff;
+        border: 1px solid #b1b1b1;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        color: #7a7a7a;
+      }
+      img {
+        display: block;
+        margin: auto;
+      }
+      .Form {
+        font-family: arial;
+        color: black;
+        padding: 20px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size:120%;
+      }
+      input[type="submit"] {
+        background-color: #0056b3;
+        color: whitesmoke;
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      input[type="submit"]:hover {
+        background-color: #003d7a;
+      }
+      label {
+        font-family: arial;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 5px;
+      }
+      input[type="text"] {
+        font-family: arial;
+        width: 100%;
+        padding: 9px;
+        position: sticky;
+        border: 1.5px solid #ccc;
+        border-radius: 5px;
+      }
+    </style>
+</head>
+<body>
+    <div class="A4page">
+        <img src="KU.png" alt="KU logo" width="200" height="auto"> <!-- Fixed 'scr' to 'src' -->
+        <h1 class="Heading1">Khalifa University Students Registration Form</h1>
+        <div class="Form">
+            <form>
+                <label for="FN">First Name:</label>
+                <input type="text" id="FN" name="FN"><br>
+
+                <label for="LN">Last Name:</label>
+                <input type="text" id="LN" name="LN"><br>
+
+                <label for="KUID">KU ID:</label>
+                <input type="text" id="KUID" name="KUID"><br>
+
+                <label for="Email">Email:</label>
+                <input type="text" id="Email" name="Email"><br>
+
+                <label for="PN">Phone Number:</label>
+                <input type="text" id="PN" name="PN"><br>
+
+                <label for="program">Choose a program:</label>
+<input list="programs" id="program" name="program">
+<datalist id="programs">
+    <option value="Bachelor of Science in Aerospace Engineering">Bachelor of Science in Aerospace Engineering</option>
+    <option value="Bachelor of Science in Chemical Engineering">Bachelor of Science in Chemical Engineering</option>
+    <option value="Bachelor of Science in Civil Engineering">Bachelor of Science in Civil Engineering</option>
+    <option value="Bachelor of Science in Electrical Engineering">Bachelor of Science in Electrical Engineering</option>
+    <option value="Bachelor of Science in Engineering Systems and Management">Bachelor of Science in Engineering Systems and Management</option>
+    <option value="Bachelor of Science in Mechanical Engineering">Bachelor of Science in Mechanical Engineering</option>
+    <option value="Bachelor of Science in Petroleum Engineering">Bachelor of Science in Petroleum Engineering</option>
+    <option value="Bachelor of Science in Chemistry">Bachelor of Science in Chemistry</option>
+    <option value="Bachelor of Science in Physics">Bachelor of Science in Physics</option>
+    <option value="Bachelor of Science in Earth and Planetary Sciences">Bachelor of Science in Earth and Planetary Sciences</option>
+    <option value="Bachelor of Science in Computer Engineering">Bachelor of Science in Computer Engineering</option>
+    <option value="Bachelor of Science in Computer Engineering in Software Systems Concentration">Bachelor of Science in Computer Engineering in Software Systems Concentration</option>
+    <option value="Bachelor of Science in Robotics and Artificial Intelligence (AI)">Bachelor of Science in Robotics and Artificial Intelligence (AI)</option>
+    <option value="Bachelor of Science in Computer Science in Artificial Intelligence Concentration">Bachelor of Science in Computer Science in Artificial Intelligence Concentration</option>
+    <option value="Bachelor of Science in Computer Science in Cybersecurity Concentration">Bachelor of Science in Computer Science in Cybersecurity Concentration</option>
+    <option value="Bachelor of Science in Applied Mathematics, Statistics, and Data Science">Bachelor of Science in Applied Mathematics, Statistics, and Data Science</option>
+    <option value="Bachelor of Science in Biomedical Engineering">Bachelor of Science in Biomedical Engineering</option>
+    <option value="Bachelor of Science in Cell and Molecular Biology">Bachelor of Science in Cell and Molecular Biology</option>
+</datalist>
+
+                
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
